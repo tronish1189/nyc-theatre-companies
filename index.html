@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who's Who in NYC Theatre</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="wrapper">
+        <h1 class="title">Who's Who in NYC Theatre</h1>
+        <h2 class="subtitle">(and a few other cities)</h2>
+
+        <div>
+            <p class="new-question" onclick="location.reload()">🔄 Want a new question?</p>
+            <p class="question">Who is the artistic director of <span class="selected-theatre" data-selected-theatre></span>?</p>
+        </div>
+
+        <div class="answers-wrapper">
+            <button data-answer="1"></button>
+            <button data-answer="2"></button>
+            <button data-answer="3"></button>
+        </div>
+
+        <p class="result-text" data-result></p>
+
+
+        <p data-mission class="mission"></p>
+
+        <footer>
+            Data last updated: January 2024
+        </footer>
+    </main>
+
+
+
+
+    <script src="dist/js/scripts.js"></script>
+</body>
+
+</html>
